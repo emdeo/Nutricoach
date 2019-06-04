@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\94d83ff4e2d0235c376544216425854f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\bdb0e461472ef19310263f69c0142d3b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\cdc9be8b1658475cc86a8e19485afa9f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\462d4fb9177d706b59085a35d6f92ad2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\a581c377f92404c07e57fbd402eeee86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\2945a20ad34b1080f0a9835725754353\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\f484ae2e2130a3a9866674fca6d60850\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9e41c81180e1cac862442fc07c506f92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3769e94645d0777192f1baee1d399b20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\929ce8a1b96e59026d297777a6b2dde3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3052d481b5fe6d99e22b17668ccb1b11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\cd319b98f5c8475fb918a1d325854b4a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\453aa3458064197f3e7bed9328b68004\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\be39c4091d8390ca757342337379c259\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\b143a1a6b0acfb0e97afffffb6205bf6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9280154ede413bb082c47c93dbde96ab\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\1e04b599c3a703f65a1b5a72bd6fbac3\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\038ae4271bec3cf4de6518ed2107b52c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\47e6852ade2c9f553f85c90a7ad10409\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\7f0683d123836f45d8c4d63b611fc241\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\5b83e4cd8fba6320b1f562746af94883\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3c2b7e379e3dad6ef3925ed59879924a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\96c1560dd72081c3f7d11402ae53f9bf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\d407a20468c241f0ffc96ac9f66faef9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\ace19278cddd7d70ec4bece8c054f502\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\25ee7c654096e990967626ee824d882b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\58e520dabca7894ce7230dfb80024ea1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\bdb0e461472ef19310263f69c0142d3b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\bdb0e461472ef19310263f69c0142d3b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9280154ede413bb082c47c93dbde96ab\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9280154ede413bb082c47c93dbde96ab\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\1e04b599c3a703f65a1b5a72bd6fbac3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\1e04b599c3a703f65a1b5a72bd6fbac3\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9280154ede413bb082c47c93dbde96ab\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.nutricoach.MainActivity
+ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\94d83ff4e2d0235c376544216425854f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\94d83ff4e2d0235c376544216425854f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\bdb0e461472ef19310263f69c0142d3b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\bdb0e461472ef19310263f69c0142d3b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\cdc9be8b1658475cc86a8e19485afa9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\cdc9be8b1658475cc86a8e19485afa9f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\462d4fb9177d706b59085a35d6f92ad2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\462d4fb9177d706b59085a35d6f92ad2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\a581c377f92404c07e57fbd402eeee86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\a581c377f92404c07e57fbd402eeee86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\2945a20ad34b1080f0a9835725754353\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\2945a20ad34b1080f0a9835725754353\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\f484ae2e2130a3a9866674fca6d60850\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\f484ae2e2130a3a9866674fca6d60850\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9e41c81180e1cac862442fc07c506f92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9e41c81180e1cac862442fc07c506f92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3769e94645d0777192f1baee1d399b20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3769e94645d0777192f1baee1d399b20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\929ce8a1b96e59026d297777a6b2dde3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\929ce8a1b96e59026d297777a6b2dde3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3052d481b5fe6d99e22b17668ccb1b11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3052d481b5fe6d99e22b17668ccb1b11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\cd319b98f5c8475fb918a1d325854b4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\cd319b98f5c8475fb918a1d325854b4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\453aa3458064197f3e7bed9328b68004\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\453aa3458064197f3e7bed9328b68004\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\be39c4091d8390ca757342337379c259\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\be39c4091d8390ca757342337379c259\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\b143a1a6b0acfb0e97afffffb6205bf6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\b143a1a6b0acfb0e97afffffb6205bf6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9280154ede413bb082c47c93dbde96ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\9280154ede413bb082c47c93dbde96ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\1e04b599c3a703f65a1b5a72bd6fbac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\1e04b599c3a703f65a1b5a72bd6fbac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\038ae4271bec3cf4de6518ed2107b52c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\038ae4271bec3cf4de6518ed2107b52c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\47e6852ade2c9f553f85c90a7ad10409\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\47e6852ade2c9f553f85c90a7ad10409\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\7f0683d123836f45d8c4d63b611fc241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\7f0683d123836f45d8c4d63b611fc241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\5b83e4cd8fba6320b1f562746af94883\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\5b83e4cd8fba6320b1f562746af94883\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3c2b7e379e3dad6ef3925ed59879924a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\3c2b7e379e3dad6ef3925ed59879924a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\96c1560dd72081c3f7d11402ae53f9bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\96c1560dd72081c3f7d11402ae53f9bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\d407a20468c241f0ffc96ac9f66faef9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\d407a20468c241f0ffc96ac9f66faef9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\ace19278cddd7d70ec4bece8c054f502\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\ace19278cddd7d70ec4bece8c054f502\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\25ee7c654096e990967626ee824d882b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\25ee7c654096e990967626ee824d882b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\58e520dabca7894ce7230dfb80024ea1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrateur\.gradle\caches\transforms-2\files-2.1\58e520dabca7894ce7230dfb80024ea1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrateur\Desktop\Manu\Nutricoach\app\src\main\AndroidManifest.xml
