@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Chemin du fichier CSV (ingredients)
-		String fichier = "C:\\Users\\Administrateur\\Desktop\\eclipse-workspace\\Nutricoach_Metier\\src\\Aliments_Apports caloriques.csv";
+		String fichier = "C:\\Users\\Administrateur\\Desktop\\eclipse-workspace\\Nutricoach_Metier\\Aliments_Apports caloriques.csv";
 		
 		// Séparateur du fichier CSV
 		String sep = ";";
