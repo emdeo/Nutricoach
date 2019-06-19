@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ListeIngredients implements Serializable {
 
-	protected List<Ingredient> _liste; // les classes filles peuvent hÃ©riter de cet attribut
+	protected List<Ingredient> _liste; // les classes filles peuvent hériter de cet attribut
 
 	/**
 	 * Constructeur
@@ -17,23 +17,23 @@ public class ListeIngredients implements Serializable {
 	}
 
 	/**
-	 * Ajouter un ingrÃ©dient = 1) vÃ©rifier si l'ingrÃ©dient est dÃ©jÃ  dans la liste ;
-	 * 2) ajouter l'Ã©lÃ©ment Ã  la liste.
+	 * Ajouter un ingrédient = 1) vérifier si l'ingrédient est déjÃ  dans la liste ;
+	 * 2) ajouter l'élément Ã  la liste.
 	 * 
 	 * @param i
 	 */
 	public void ajouter(Ingredient i) {
 		if (this._liste.contains(i)) {
-			System.out.println("L'ingrÃ©dient est dÃ©jÃ  dans la recette");
+			System.out.println("L'ingrédient est déjÃ  dans la recette");
 		} else {
 			this._liste.add(i);
 		}
 	}
 
 	/**
-	 * Modifier un ingrÃ©dient = 1) passer en revue tous les Ã©lÃ©ments de la liste ;
-	 * 2) vÃ©rifier si le nom de cet Ã©lÃ©ment est identique au nom de l'ingrÃ©dient
-	 * modifiÃ© ; 3) modifier l'ingrÃ©dient ('apports' et 'quantite').
+	 * Modifier un ingrédient = 1) passer en revue tous les éléments de la liste ;
+	 * 2) vérifier si le nom de cet élément est identique au nom de l'ingrédient
+	 * modifié ; 3) modifier l'ingrédient ('apports' et 'quantite').
 	 * 
 	 * @param i
 	 */
@@ -46,21 +46,21 @@ public class ListeIngredients implements Serializable {
 	}
 
 	/**
-	 * Supprimer un ingrÃ©dient = 1) vÃ©rifier que l'ingrÃ©dient est dans la liste ; 2)
-	 * supprimer l'Ã©lÃ©ment de la liste.
+	 * Supprimer un ingrédient = 1) vérifier que l'ingrédient est dans la liste ; 2)
+	 * supprimer l'élément de la liste.
 	 * 
 	 * @param i
 	 */
 	public void supprimer(Ingredient i) {
 		if (!this._liste.contains(i)) {
-			System.out.println("L'ingrÃ©dient n'est pas dans la recette");
+			System.out.println("L'ingrédient n'est pas dans la recette");
 		} else {
 			this._liste.remove(i);
 		}
 	}
 
 	/**
-	 * Supprimer un ingrÃ©dient en entrant son nom en paramÃ¨tre.
+	 * Supprimer un ingrédient en entrant son nom en paramètre.
 	 * 
 	 * @param nom
 	 */
@@ -79,6 +79,21 @@ public class ListeIngredients implements Serializable {
 
 	public void set_liste(List<Ingredient> _liste) {
 		this._liste = _liste;
+	}
+	
+	/**
+	 * Récupérer un ingrédient de la liste à partir de son id.
+	 * 
+	 * @param id
+	 * @return
+	 */
+	public Ingredient get_ingredient(int id) {
+		for(Ingredient i : this._liste) {
+			if(i.get_id() == id)
+				return i;
+		}
+		System.out.println("ID introuvable");
+		return null;
 	}
 
 	@Override

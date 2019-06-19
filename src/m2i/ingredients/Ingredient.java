@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Suggestion : gÃ©nÃ©rer la liste d'objets Ingredient Ã  partir d'un fichier CSV (ou autre format).
+ * Suggestion : générer la liste d'objets Ingredient Ã  partir d'un fichier CSV (ou autre format).
  * 
  * Ce fichier servira Ã  ajouter/modifier des aliments (mais pas Ã  les supprimer : il faut en
  * conserver une trace. L'utilisateur peut choisir ceux qu'il souhaite voir s'afficher Ã 
@@ -16,14 +16,18 @@ public class Ingredient implements Serializable {
 	private int _id;
 	private String _nom;
 	private float _apports; // kCals / 100g
-	private float _quantite; // grammes (la quantitÃ© est fixÃ©e quand on crÃ©e/consulte une recette, pas quand
-								// l'objet est instanciÃ©)
+	private float _quantite; // grammes (la quantité est fixée quand on crée/consulte une recette, pas
+								// quand
+								// l'objet est instancié)
 
 	private Categorie _categorie; // fruit, poisson, laitage...
-	private String[] _repas; // liste des repas dans lesquels l'ingrÃ©dient peut Ãªtre utilisÃ©
+	private String[] _repas; // liste des repas dans lesquels l'ingrédient peut Ãªtre utilisé
+
+	private boolean _estSelect; // ingrédient validé ou supprimé par l'utilisateur (si 'false', n'apparaît pas
+								// dans les recettes proposées)
 
 	/**
-	 * Constructeur (la 1Ã¨re lettre du nom est en capitale)
+	 * Constructeur (la 1ere lettre du nom est en capitale)
 	 * 
 	 * @param _nom
 	 * @param _apports
@@ -37,24 +41,26 @@ public class Ingredient implements Serializable {
 		this._apports = apports;
 		this._categorie = categorie;
 		this._repas = repas;
+
+		this._estSelect = true;
 	}
 
 	/**
-	 * Modifier les valeurs des attributs d'un ingrÃ©dient (hormis son id).
+	 * Modifier les valeurs des attributs d'un ingrédient (hormis son id).
 	 * 
 	 * @param i
 	 */
 	public void modifier(Ingredient i) {
 		/*
-		 * L'attribut 'nom' n'est pas modifiÃ© puisqu'on suppose qu'il s'agit du mÃªme
-		 * ingrÃ©dient
+		 * L'attribut 'nom' n'est pas modifié puisqu'on suppose qu'il s'agit du mÃªme
+		 * ingrédient
 		 */
 		this._apports = i.get_apports();
 		this._quantite = i.get_quantite();
 	}
 
 	/**
-	 * VÃ©rifie si deux ingrÃ©dients portent le mÃªme nom.
+	 * Vérifie si deux ingrédients portent le mÃªme nom.
 	 * 
 	 * @param o
 	 * @return
@@ -119,15 +125,25 @@ public class Ingredient implements Serializable {
 		this._repas = _repas;
 	}
 
+	public boolean is_Select() {
+		return _estSelect;
+	}
+
+	public void set_Select(boolean _estSelect) {
+		this._estSelect = _estSelect;
+	}
+
 	/**
 	 * Si c'est un lait, une creme ou une boisson, afficher les apports pour 100mL ;
 	 * afficher pour 100 grammes sinon
 	 */
 	@Override
 	public String toString() {
+		String unite = "g";
 		if (_categorie == Categorie.Boisson || _categorie == Categorie.Alcool || _nom.contains("Lait")
 				|| _nom.contains("Creme"))
-			return _id + " - " + _nom + " : " + _categorie + " (" + _apports + " kCals/100mL)";
-		return _id + " - " + _nom + " : " + _categorie + " (" + _apports + " kCals/100g)";
+			unite = "mL";
+		return _id + ") " + _nom + " : " + _categorie + " (" + _apports + " kCals/100" + unite + ") - Selectionné = "
+				+ this._estSelect;
 	}
 }
